@@ -19,7 +19,15 @@ function NuoveUscite() {
       });
   }, []);
 
-  return;
+  /* return (
+    <div className="container mt-4">
+      <div className="col  text-white p-1">
+        {users.map((user) => (
+          <img src={user.picture} className="img-fluid" />
+        ))}
+      </div>
+    </div>
+  );*/
 }
 
 export default NuoveUscite;

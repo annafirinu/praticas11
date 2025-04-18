@@ -9,6 +9,7 @@ import Altro from "./Component/Altro";
 import Footer from "./Component/Footer";
 import NavbarMobile from "./Component/NavbarMobile";
 import { Container, Col, Row } from "react-bootstrap";
+import NavbarDesktop from "./Component/NavbarDesktop";
 function App() {
   return (
     <body className="background">
@@ -28,6 +29,7 @@ function App() {
           <Col lg={11}>
             <div className="background">
               <NavbarMobile />
+              <NavbarDesktop />
 
               <Novità />
               <div>

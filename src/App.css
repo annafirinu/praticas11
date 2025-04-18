@@ -51,3 +51,14 @@
   border-bottom: 1px solid red;
   padding: 10px 15px;
 }
+
+.margin {
+  margin-right: 400px;
+}
+
+.bordi {
+  border-radius: 5%;
+  text-align: center;
+  width: 90px;
+  height: 30px;
+}
